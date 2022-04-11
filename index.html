@@ -12,51 +12,37 @@
     <!-- hero page -->
     <section id="hero" class="relative w-full h-screen bg-cover bg-center">
         
-    <!-- Navbar -->
-    <nav class="relative container mx-auto py-6">
-        <!-- Flex container -->
-        <div class="flex items-center justify-between mx-8">
-          <!-- Logo -->
-          <div class="text-white">
-                DAP Rosdamhoeve
-            <!-- <img src="img/logo.svg" alt="" /> -->
-          </div>
-          <!-- Menu Items -->
-          <div class="hidden space-x-6 text-white md:flex">
-            <a href="#over" class="hover:text-gray-50 hover:underline">Over Ons</a>
-            <a href="#diensten" class="hover:text-gray-50 hover:underline">Diensten</a>
-            <a href="#contact" class="hover:text-gray-50 hover:underline">Contact</a>
-          </div>
-          <!-- Button -->
-          <a
-            href="#"
-            class="hidden p-3 px-6 pt-2 bg-blueGreen text-white baseline rounded-md hover:text-gray-50 hover:underline md:block"
-            >Maak een afspraak</a
-          >
-  
-          <!-- Hamburger Icon -->
-          <button
-            id="menu-btn"
-            class="block hamburger md:hidden focus:outline-none"
-          >
-            <span class="hamburger-top"></span>
-            <span class="hamburger-middle"></span>
-            <span class="hamburger-bottom"></span>
-          </button>
-        </div>
-  
-        <!-- Mobile Menu -->
-        <div class="md:hidden">
-          <div
-            id="menu"
-            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-          >
-            <a href="#over">Over Ons</a>
-            <a href="#diensten">Diensten</a>
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-      </nav>
+        <header class="text-white body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a href="#" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue rounded-full" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50">
+                  <path d="M45,15.625v13.75c0,1.934-1.566,3.5-3.5,3.5h-8.625V41.5c0,1.934-1.566,3.5-3.5,3.5h-13.75c-1.934,0-3.5-1.566-3.5-3.5
+                  v-8.625H3.5c-1.934,0-3.5-1.566-3.5-3.5v-13.75c0-1.932,1.566-3.5,3.5-3.5h8.625V3.5c0-1.932,1.566-3.5,3.5-3.5h13.75
+                  c1.934,0,3.5,1.568,3.5,3.5v8.625H41.5C43.434,12.125,45,13.693,45,15.625z"/>
+                </svg> -->
+
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor"  class="w-10 h-10 text-white p-2 bg-blueGreen rounded-full" x="0px" y="0px" width="45px" height="45px" viewBox="0 0 45 45" xml:space="preserve">
+                    <g>
+                      <path d="M45,15.625v13.75c0,1.934-1.566,3.5-3.5,3.5h-8.625V41.5c0,1.934-1.566,3.5-3.5,3.5h-13.75c-1.934,0-3.5-1.566-3.5-3.5
+                          v-8.625H3.5c-1.934,0-3.5-1.566-3.5-3.5v-13.75c0-1.932,1.566-3.5,3.5-3.5h8.625V3.5c0-1.932,1.566-3.5,3.5-3.5h13.75
+                          c1.934,0,3.5,1.568,3.5,3.5v8.625H41.5C43.434,12.125,45,13.693,45,15.625z"/>
+                    </g>
+                  </svg>
+
+                <span class="ml-3 text-xl text-white font-bold">DAP Rosdamhoeve</span>
+              </a>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a href="#over" class="mr-5 hover:underline">Over</a>
+                <a href="#contact" class="mr-5 hover:underline">Contact</a>
+                <a href="#diensten " class="mr-5 hover:underline">Diensten</a>
+              </nav>
+              <button class="inline-flex items-center bg-blueGreen border-0 py-2 px-5 focus:outline-none hover:bg-blueGreen/90 rounded text-base mt-4 md:mt-0">Bel voor afspraak
+                <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg> -->
+              </button>
+            </div>
+          </header> 
 
       <div class="absolute bottom-0 left-0 m-10 mb-24 text-white flex-col md:w-1/2">
           <h2 class="text-3xl font-semibold md:text-4xl">Dierenartsenpraktijk Rosdamhoeve</h2>
