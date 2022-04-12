@@ -8,6 +8,9 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
+      fontFamily: {
+        'playfair': ['Playfair Display', "serif"] 
+      },
       colors: {
         blueGreen: '#0E6F70',
         blue: '#75ABB0',
